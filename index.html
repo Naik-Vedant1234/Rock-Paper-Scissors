@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="title">
+        <a style="font-size: 3rem;">Rock Paper Scissors</a>
+    </div>
+    <div class="container">
+        <div class="images">
+            <div class="choice" id="rock">
+                <button><img src="rock.png" alt="rock" height="100px" width="100px"></button>
+                <br>
+                <p>Rock</p>
+            </div>
+            <div class="choice" id="paper">
+                <button><img src="paper.png" alt="paper" height="100px" width="100px"></button>
+                <br>
+                <p>Paper</p>
+            </div>
+            <div class="choice" id="scissors">
+                <button><img src="scissors.png" alt="scissors" height="100px" width="100px"></button>
+                <br>
+                <p>Scissors</p>
+            </div>
+        </div>
+        <div class="score">
+            <table>
+                <caption><u><b>Score</b></u></caption>
+                <thead class="border1">
+                    <th id="head1">You</th>
+                    <th id="head2">Comp</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td id="u1">0</td>
+                        <td id="u2">0</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="msg-container">
+            <p id="msg">Play Your Move</p>
+        </div>
+    </div>
+    <script src="first.js"></script>
+</body>
+</html>
